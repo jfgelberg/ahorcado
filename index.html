@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/vue.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Juego de Ahorcado</title>
+   
+  </head>
+
+  <body>
+    <div id="contenedor" v-cloak>
+      <!--Pagina de inicio-->
+      <componente-uno></componente-uno>
+
+      <!--Pagina de carga del formulario-->
+      <componente-dos></componente-dos>
+
+      <!--Pagina del juego con el usuario cargado del formulario -->
+      <componente-tres></componente-tres>
+
+    </div><!--/contenedor-->
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
